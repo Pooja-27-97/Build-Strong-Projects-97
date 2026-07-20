@@ -7,3 +7,4 @@ Aim to build strong and worth projects.
 
 ## CSS
 1. Color scheme and Selectors.
+2. Transform & Transition.
