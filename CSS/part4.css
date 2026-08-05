@@ -36,10 +36,17 @@ for box4, with a 5px blur radius.*/
     background: lightgreen;
 }
 
-/* Qs5. Set Your picture or any picture as the background ofthe div
+#box4:hover {
+    box-shadow: 2px 2px 5px green;
+}
+
+/* Qs5. Set Your picture or any picture as the background of the div
 "myPic". Also, set transparency of this div to 50%. */
 #myPic {
-    width: 200px;
-    height: 200px;
+    width: 80%;
+    height: 800px;
     background: pink;
+    background-image: url("Muzan.jpg");
+    background-size: cover;
+    opacity: 0.5;
 }
