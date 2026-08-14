@@ -1,0 +1,23 @@
+.container {
+    width: 50%;
+    height: 500px;
+    border: 2px solid orchid;
+    background-color: beige;
+    margin: 100px auto;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.items {
+    width: 80px;
+    height: 80px;
+    border: 2px solid orange;
+    background-color: aqua;
+    text-align: center;
+}
+
+#one {
+    grid-row: 1 / 3;
+}
