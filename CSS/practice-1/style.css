@@ -59,5 +59,29 @@ a, p, h4 {
 }
 
 h4 {
-    color: aqua;
+    color: orchid;
+}
+
+@media (min-width: 530px) and (max-width: 1050px){
+    body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 350px;
+        height: 300px;
+        display: inline-block;
+        border: 2px solid black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 20px;
+        margin: 15px 5px 15px 5px;
+        transition: box-shadow 0.5s ease-in-out 0.2s;
+        background-color: azure;
+        
+    }
+    img {
+        width: 350px;
+        height: 180px;
+        border-radius: 18px 18px 0 0;
+    }
 }
