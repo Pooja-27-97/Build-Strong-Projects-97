@@ -3,6 +3,7 @@
     width: 50%;
     display: grid;
     margin: 100px auto;
+    border: 2px solid black;
     grid-template-rows: repeat(12, 1fr);
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 10px;
@@ -37,4 +38,30 @@
 
 #footer {
     grid-column: 1 / span 12;
+}
+
+
+@media (max-width: 720px) {
+    #header {
+        grid-column: 1 / span 12;
+    }
+    #nav {
+        grid-column: 1 / span 12;
+        grid-row: 2 / 3;
+    }
+    #side-bar {
+        grid-row: 3 / 12;
+        grid-column: 1 / span 3;
+    }
+    #main {
+        grid-row: 3 / span 9;
+        grid-column: 4 / span 9;
+    }
+    #ads {
+        grid-column: 1 / span 3;
+        grid-row: 12 / span 1;
+    }
+    #footer {
+        grid-column: 4 / span 9;
+    }
 }
