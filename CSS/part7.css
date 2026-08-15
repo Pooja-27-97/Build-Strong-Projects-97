@@ -65,3 +65,21 @@
         grid-column: 4 / span 9;
     }
 }
+
+.loader {
+    width: 200px;
+    height: 200px;
+    border: 20px solid pink;
+    border-radius: 50%;
+    border-top: 20px solid aqua;
+    animation: spin 2s linear 0.5s 5 alternate-reverse;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
