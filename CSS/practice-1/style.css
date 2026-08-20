@@ -63,10 +63,6 @@ h4 {
 }
 
 @media (min-width: 530px) and (max-width: 1050px){
-    body {
-        display: flex;
-        flex-wrap: wrap;
-    }
     .card {
         width: 350px;
         height: 300px;
