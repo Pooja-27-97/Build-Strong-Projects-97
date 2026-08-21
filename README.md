@@ -11,3 +11,4 @@ Aim to build strong and worth projects.
 3. Flex Box.
 4. Grid.
 5. Key-frames and media-queries
+6.Colors and Topography
