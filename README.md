@@ -12,3 +12,4 @@ Aim to build strong and worth projects.
 4. Grid.
 5. Key-frames and media-queries
 6.Colors and Topography
+7. Bootstrap
