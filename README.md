@@ -13,3 +13,6 @@ Aim to build strong and worth projects.
 5. Key-frames and media-queries
 6.Colors and Topography
 7. Bootstrap
+
+## Practice
+1. Simple web page.
