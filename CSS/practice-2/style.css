@@ -1,7 +1,10 @@
 body {
+    font-family: "Fontdiner Swanky", serif;
     margin: 0;
     position: relative;
     min-height: 100vh;
+    display: flex;
+    letter-spacing: 3px;
 }
 
 body::before {
@@ -18,4 +21,49 @@ body::before {
 body > * {
     position: relative;
     z-index: 1;
+}
+
+.side-bar {
+    flex: 1;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 25px gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar h2 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.side-bar .body {
+    margin: 30px 0;
+    padding: 0 70px;
+    flex: 1;
+}
+
+.side-bar .body h3 {
+    line-height: 50px;
+}
+
+.side-bar .footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.side-bar .footer i {
+    font-size: 20px;
+}
+
+hr {
+    width: 80%;
+    height: 2px;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+.content {
+    flex: 4;
+    height: 100vh;
 }
