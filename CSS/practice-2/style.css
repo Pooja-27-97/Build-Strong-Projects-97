@@ -35,35 +35,60 @@ body > * {
 .side-bar h2 {
     margin: 20px 0;
     text-align: center;
+    color: rgb(233, 165, 40);
 }
 
 .side-bar .body {
-    margin: 30px 0;
-    padding: 0 70px;
+    text-align: center;
     flex: 1;
+    cursor: pointer;
 }
 
 .side-bar .body h3 {
     line-height: 50px;
+    color: rgb(226, 20, 20);
+}
+
+.side-bar .body h3:hover {
+    box-shadow: 0 0 25px gray;
+}
+
+.side-bar .body i:hover {
+    transform: scale(1.2);
 }
 
 .side-bar .footer {
     padding: 20px 0;
-    text-align: center;
+    margin: 0 auto;
 }
 
 .side-bar .footer i {
-    font-size: 20px;
+    font-size: 25px;
+    color: orange;
+}
+
+.side-bar .footer i:hover {
+    color: red;
+    transform: scale(1.3);
 }
 
 hr {
     width: 80%;
     height: 2px;
-    background-color: gray;
+    background-color: blue;
     margin: 0 auto;
 }
 
 .content {
     flex: 4;
     height: 100vh;
+}
+
+.navbar {
+    width: 95%;
+    height: 60px;
+    margin: 5px auto;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 25px gray;
 }
