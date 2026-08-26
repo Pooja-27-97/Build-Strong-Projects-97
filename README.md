@@ -17,3 +17,4 @@ Aim to build strong and worth projects.
 ## Practice
 1. Simple web page.
 2. Continue practicing
+3. Side-bar completed
