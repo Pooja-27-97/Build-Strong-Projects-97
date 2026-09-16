@@ -18,3 +18,5 @@ Aim to build strong and worth projects.
 1. Simple web page.
 2. Continue practicing
 3. Side-bar completed
+4. Navbar and cards are done
+### Completed!
