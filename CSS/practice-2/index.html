@@ -31,7 +31,7 @@
         </div>
     </div>
     <div class="content">
-        <nav class="navbar bg-body-tertiary">
+        <nav class="navbar ">
             <div class="container-fluid">
                 <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
@@ -39,8 +39,39 @@
                 </form>
             </div>
         </nav>
-        <div class="cover-img"></div>
-        <div class="character"></div>
+        <div class="cover-img">
+            <img src="background.jpg" alt="Cover Image">
+        </div>
+
+        <div class="characters">
+            <h3>Characters</h3>
+            <div class="character-cards">
+                <div class="card">
+                    <img src="kakashi.webp" class="card-img" alt="Kakashi">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Kakashi</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="naruto.webp" class="card-img" alt="Naruto">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Naruto</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="sasuke.jpg" class="card-img" alt="Sasuke">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Sasuke</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="sakura.webp" class="card-img" alt="Sakura">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Saukra</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script>document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(el => new bootstrap.Tooltip(el));</script>
