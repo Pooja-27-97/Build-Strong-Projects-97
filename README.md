@@ -14,9 +14,13 @@ Aim to build strong and worth projects.
 6.Colors and Topography
 7. Bootstrap
 
-## Practice
+## Naruto
 1. Simple web page.
 2. Continue practicing
 3. Side-bar completed
 4. Navbar and cards are done
 ### Completed!
+
+
+## Spy * Family
+1. Files creation and background image
