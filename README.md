@@ -24,3 +24,4 @@ Aim to build strong and worth projects.
 
 ## Spy * Family
 1. Files creation and background image
+2. Side-bar
