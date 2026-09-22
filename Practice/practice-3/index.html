@@ -15,19 +15,20 @@
     <div class="side-bar">
         <h1>SPY * Family</h1>
         <div class="body">
-            <i class="fa-brands fa-microsoft">Dashboard</i>
-            <i class="fa-solid fa-user-secret">Spy</i>
-            <i class="fa-solid fa-user-ninja">Assassin</i>
-            <i class="fa-solid fa-user">Characters</i>
-            <i class="fa-solid fa-calendar-days">Missions</i>
+            <h2><i class="fa-brands fa-microsoft"></i> Dashboard</h2>
+            <h2><i class="fa-solid fa-user-secret"></i> Spy</h2>
+            <h2><i class="fa-solid fa-user-ninja"></i> Assassin</h2>
+            <h2><i class="fa-solid fa-user"></i> Characters</h2>
+            <h2><i class="fa-solid fa-calendar-days"></i> Missions</h2>
         </div>
         <div class="footer">
-            <i class="fa-brands fa-square-whatsapp"></i>
-            <i class="fa-brands fa-square-instagram"></i>
-            <i class="fa-brands fa-youtube"></i>
+            <h2><i class="fa-brands fa-square-whatsapp" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Whatsapp"></i></h2>
+            <h2><i class="fa-brands fa-youtube" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Youtube"></i></h2>
+            <h2><i class="fa-brands fa-square-instagram" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"></i></h2>
         </div>
     </div>
     <div class="content"></div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script>document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(el => new bootstrap.Tooltip(el));</script>
 </body>
 </html>

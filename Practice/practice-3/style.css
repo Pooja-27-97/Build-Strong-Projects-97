@@ -12,6 +12,7 @@ body::before {
     inset: -10px;
     background: url("images/cover.jpg") center / cover no-repeat;
     filter: blur(5px);
+    opacity: 0.6;
     z-index: 0;
     pointer-events: none;
 }
@@ -24,25 +25,54 @@ body > * {
 .side-bar {
     flex: 1;
     height: 100vh;
-    background-color: rgba(128, 173, 132, 0.6);
+    background-color: rgba(150, 204, 154, 0.6);
+    box-shadow: 5px 5px 15px black;
     display: flex;
     flex-direction: column;
 }
 
 h1 {
+    margin: 20px 0;
     color: red;
     text-align: center;
-    
+    transition: transform 0.5s ease-in-out 0.2s;
+}
+
+h1:hover {
+    transform: scale(1.15);
 }
 
 .side-bar .body {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
+    flex: 1;
+    cursor: pointer;
 }
 
-.body i {
-    
+.side-bar .body h2 {
+    padding: 4% 22%;
+}
+
+.side-bar .body h2:hover {
+    box-shadow: 0 0 7px red;
+}
+
+.side-bar .body i:hover {
+    transform: scale(1.2);
+}
+
+.side-bar .footer {
+    display: flex;
+    margin: 0 auto;
+}
+
+.side-bar .footer h2 {
+    padding: 0 10px;
+    font-size: 25px;
+    color: rgba(255, 0, 0, 0.6);
+}
+
+.side-bar .footer h2:hover {
+    color: red;
+    transform: scale(1.3);
 }
 
 .content {
