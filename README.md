@@ -26,3 +26,4 @@ Aim to build strong and worth projects.
 1. Files creation and background image
 2. Side-bar
 3. Side-bar and Nav-bar complete
+4. Layouts are done
