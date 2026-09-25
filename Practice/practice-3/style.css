@@ -105,3 +105,65 @@ h1:hover {
     color: red;
     transform: scale(1.05);
 }
+
+.important-info {
+    margin: 20px 20px;
+    height: 400px;
+    display: flex;    
+}
+
+.top-players {
+    height: 400px;
+    flex: 3;
+    display: flex;
+}
+
+.top-players .spy {
+    width: 400px;
+    margin: 5px;
+    background-color: rgba(150, 204, 154, 0.6);
+}
+
+.card {
+    height: 80%;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+}
+
+.top-players .assassin {
+    width: 400px;
+    margin: 5px;
+    background-color: rgba(150, 204, 154, 0.6);
+}
+
+.leaders {
+    height: 400px;
+    flex: 1.5;
+    background-color: orange;
+}
+
+.leaders .leader {
+    height: 115px;
+    width: 90%;
+}
+
+.leaders .leader img {
+    width: 40%;
+    height: 90%;
+}
+
+.characters {
+    height: 270px;
+    margin: 20px;
+    background-color: orchid;
+    display: flex;
+}
+
+.characters .char img{
+    width: 230px;
+    height: 250px;
+}
