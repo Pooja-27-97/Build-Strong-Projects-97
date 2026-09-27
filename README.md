@@ -27,3 +27,4 @@ Aim to build strong and worth projects.
 2. Side-bar
 3. Side-bar and Nav-bar complete
 4. Layouts are done
+5. Completed
