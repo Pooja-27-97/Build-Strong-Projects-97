@@ -1,3 +1,13 @@
 body {
     font-family: "Trade Winds", system-ui;
+    height: 100vh;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    inset: -2px;
+    position: fixed;
+    background: url("collage.jpeg") center / cover no-repeat;
+    z-index: -1;
 }
