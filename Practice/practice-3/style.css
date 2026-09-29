@@ -48,12 +48,12 @@ h1:hover {
 }
 
 .side-bar .body h2 {
-    padding: 4% 22%;
+    padding: 4% 20%;
 }
 
 .side-bar .body h2:hover {
     box-shadow: 0 0 7px red;
-    transform: scale(1.05);
+    transform: scale(1);
 }
 
 .side-bar .body i:hover {
