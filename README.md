@@ -31,3 +31,4 @@ Aim to build strong and worth projects.
 
 ## Signup form
 1. Navbar
+2. Input form
