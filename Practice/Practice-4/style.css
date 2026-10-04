@@ -35,9 +35,9 @@ body > * {
 
 .form-submit {
     width: 25%;
-    height: 80%;
-    margin: 10px auto;
-    background-color: aliceblue;
+    height: 65%;
+    margin: 30px 65%;
+    background-color: rgba(124, 118, 118, 0.6);
 }
 
 .form-submit a img {
@@ -56,5 +56,17 @@ body > * {
 .input-data {
     margin: 5px 15px;
     width: 90%;
+    height: 45px;
+    border: 2px solid grey;
+    border-radius: 10px;
 }
 
+.form-submit .btn {
+    margin: 5px 15px;
+    width: 90%;
+    height: 40px;
+}
+
+h5 {
+    text-align: center;
+}
