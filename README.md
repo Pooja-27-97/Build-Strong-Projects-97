@@ -33,3 +33,6 @@ Aim to build strong and worth projects.
 1. Navbar
 2. Input form
 3. Done form
+
+## Spotify-frontend
+1. Gathered information
