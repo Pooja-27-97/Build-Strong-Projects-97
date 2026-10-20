@@ -36,3 +36,4 @@ Aim to build strong and worth projects.
 
 ## Spotify-frontend
 1. Gathered information
+2. Layout Design
