@@ -38,3 +38,8 @@ Aim to build strong and worth projects.
 1. Gathered information
 2. Layout Design
 3. Layout Alignment
+
+
+
+## JS
+1. Solved 12 questions
