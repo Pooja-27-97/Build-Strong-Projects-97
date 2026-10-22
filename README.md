@@ -43,3 +43,4 @@ Aim to build strong and worth projects.
 
 ## JS
 1. Solved 12 questions
+2. Solved 8 questions
