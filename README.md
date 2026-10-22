@@ -34,11 +34,11 @@ Aim to build strong and worth projects.
 2. Input form
 3. Done form
 
-## Spotify-frontend
+## Haven-frontend
 1. Gathered information
 2. Layout Design
 3. Layout Alignment
-
+4. Modified Sidebar
 
 
 ## JS
