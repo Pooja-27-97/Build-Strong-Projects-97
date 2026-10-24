@@ -59,21 +59,30 @@ body > * {
 }
 
 .main-context .song-part {
-    height:200px;
-    background-color: orange;
+    margin: 15px 5px 0 5px;
+    height: 82%;
 }
 
 .single-song-card {
-    height: 250px;
-    background-color: yellow;
+    display: flex;
+    height: 270px;
+    background-color: rgba(235, 194, 145, 0.5);
 }
 
-.recommmendations {
-    height: 200px;
-    background-color: blue;
+.single-song-card img{
+    height: 230px;
+    width: 400px;
 }
 
-.recent-song-list {
-    height: 200px;
-    background-color: green;
+.recommmendations .recomm-list {
+    display: flex;
+}
+
+.recommmendations .recomm-list .card {
+    height: 160px;
+    width: 250px;
+}
+
+.recent-song-list .recent-cards {
+    display: flex;
 }
