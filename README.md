@@ -39,7 +39,7 @@ Aim to build strong and worth projects.
 2. Layout Design
 3. Layout Alignment
 4. Modified Sidebar
-
+5. Modified main page
 
 ## JS
 1. Solved 12 questions
