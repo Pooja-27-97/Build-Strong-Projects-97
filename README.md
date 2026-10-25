@@ -40,6 +40,7 @@ Aim to build strong and worth projects.
 3. Layout Alignment
 4. Modified Sidebar
 5. Modified main page
+6. Side-bar
 
 ## JS
 1. Solved 12 questions
