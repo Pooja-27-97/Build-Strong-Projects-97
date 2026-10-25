@@ -31,20 +31,43 @@ body > * {
 }
 
 .web-name {
+    text-align: center;
     padding: 8px 15px;
+    color: aliceblue;
 }
 
 .redirect-pages {
+    margin: 10px 5px 0 25px;
     height: 300px;
+}
+
+.redirect-pages .pages {
+    line-height: 33px;
 }
 
 .playlist {
     height: 300px;
 }
 
+.playlist h3 {
+    color: white;
+}
+
+.playlist .card {
+    margin: 0 10px;
+    height: 60px;
+}
+
 .profile-name {
     margin-top: auto;
     padding: 25px 0 5px 10px;
+    display: flex;
+}
+
+.profile-name img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
 
 .main-context {
@@ -84,5 +107,9 @@ body > * {
 }
 
 .recent-song-list .recent-cards {
+    display: flex;
+}
+
+.play-bar {
     display: flex;
 }
