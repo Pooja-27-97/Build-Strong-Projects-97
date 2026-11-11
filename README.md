@@ -45,3 +45,8 @@ Aim to build strong and worth projects.
 ## JS
 1. Solved 12 questions
 2. Solved 8 questions
+
+
+## Back on track
+
+1. Revising previous concepts and re-solving the problems.
