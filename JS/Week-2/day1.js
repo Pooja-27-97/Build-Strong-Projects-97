@@ -84,3 +84,35 @@
 //     console.log("Quitting game!");
 //     console.log(`Color: ${secretColor}`);
 // } else console.log("Congrats, you guessed it right!");
+
+
+
+let todo = [];
+let action = prompt("Enter the action to perform");
+
+while(true) {
+    if(action === "quit") {
+        console.log("Quitting app");
+        break;
+    }
+
+    if(action === "list") {
+        console.log("--------------");
+        for(task of todo) console.log(task);
+        console.log("--------------");
+    } else if(action === "add") {
+        let newTask = prompt("Enter a new task");
+        todo.push(newTask);
+        console.log("Task Added");
+    } else if(action === "delete") {
+        let deleteTask = prompt("Enter the task to delete");
+        if(todo.includes(deleteTask)) {
+            let idx = todo.indexOf(deleteTask);
+            todo.splice(idx, 1);
+            console.log("Task deleted");
+        } else {
+            console.log("Task not exist");
+        }
+    } else console.log("Wrong request");
+    action = prompt("Enter the action to perform");
+}
