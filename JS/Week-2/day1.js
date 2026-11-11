@@ -57,7 +57,30 @@
 // console.log(arr);
 
 
-// let tictactoe = [['X|', " |", "O"], ['|', "X|", " "], ['O|', " |", "X"]];
+// let tictactoe = [['X', null, "O"], [null, "X", null], ['O', null, "X"]];
 // console.log(tictactoe[0]);
 // console.log(tictactoe[1]);
 // console.log(tictactoe[2]);
+
+
+// let n = parseInt(prompt("Enter n"));
+
+// for(let i=n; i >= 1; i--) {
+//     if(i % 2 != 0) console.log(i);
+// }
+
+// for(let i=2; i <= n; i+=2) console.log(i);
+
+// for(let i=n; i <= n*10; i+=n) console.log(i);
+
+
+// let secretColor = "purple";
+// let getColor = prompt("Guess myy fav color");
+
+// while((getColor != secretColor) && (getColor != "quit")) 
+//     getColor = prompt("Oops wrong, try again!");
+
+// if (getColor === "quit") {
+//     console.log("Quitting game!");
+//     console.log(`Color: ${secretColor}`);
+// } else console.log("Congrats, you guessed it right!");
