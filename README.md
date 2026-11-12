@@ -50,3 +50,10 @@ Aim to build strong and worth projects.
 ## Back on track
 
 1. Revising previous concepts and re-solving the problems.
+
+
+
+# React
+## Learning React and building projects
+
+1. React, Markup, import/export.
