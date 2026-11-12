@@ -47,10 +47,10 @@ Aim to build strong and worth projects.
 2. Solved 8 questions
 
 
-## Back on track
+## Back on track -> Web Development
 
 1. Revising previous concepts and re-solving the problems.
-
+2. Completed as a language
 
 
 # React
