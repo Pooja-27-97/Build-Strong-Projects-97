@@ -58,3 +58,4 @@ Aim to build strong and worth projects.
 ## Learning React and building projects
 
 1. React, Markup, import/export.
+2. React props, conditions
