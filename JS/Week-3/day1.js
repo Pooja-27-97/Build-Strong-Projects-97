@@ -17,3 +17,6 @@ h1.innerHTML = `<u>DOM Practice</u>`;
 h1.style.color = "purple";
 document.querySelector('body').append(h1);
 
+let p = document.createElement('p');
+p.innerHTML = "<b>Knowledge</b> and <b>action</b> are two wings";
+document.querySelector('body').append(p);
