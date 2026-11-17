@@ -1,0 +1,13 @@
+.desc {
+    background-color: aquamarine;
+    height: 150px;
+}
+
+.desc h2 {
+    color: orchid;
+    padding: 10px;
+}
+
+.desc h4 {
+    color: crimson;
+}

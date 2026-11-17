@@ -1,0 +1,15 @@
+.Price {
+    height: 50px;
+    display: flex;
+    background-color: pink;
+}
+
+.Price h3 {
+    color: black;
+    padding: 0 0 0 20px;
+}
+
+#underline {
+    color: rgb(104, 97, 97);
+    text-decoration: line-through solid black;
+}
