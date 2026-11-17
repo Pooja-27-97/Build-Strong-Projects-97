@@ -60,3 +60,4 @@ Aim to build strong and worth projects.
 
 1. React, Markup, import/export.
 2. React props, conditions
+3. Amazon-card activity
