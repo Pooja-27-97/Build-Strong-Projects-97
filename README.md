@@ -52,6 +52,7 @@ Aim to build strong and worth projects.
 1. Revising previous concepts and re-solving the problems.
 2. Completed as a language
 3. DOM basic concepts 
+4. DOM Events
 
 
 # React
