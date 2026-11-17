@@ -46,3 +46,29 @@
 //     let input = document.querySelector("input");
 //     console.dir(input.value);
 // })
+
+
+// let btn = document.createElement("button");
+// let body = document.querySelector("body");
+
+// body.append(btn);
+
+// btn.innerHTML = "Click me!";
+
+// btn.addEventListener("mouseenter", function() {
+//     btn.style.backgroundColor = "Pink";
+// })
+
+let input = document.querySelector("input");
+input.addEventListener("input", function() {
+    let h2 = document.querySelector("h2");
+    let result = "";
+
+    for(let i=0; i < input.value.length; i++) {
+        let ch = input.value[i];
+        if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z') || (ch == " ")) result += ch;
+    }
+    this.value = result;
+    console.log(this.value);
+    h2.innerText = result;
+})
