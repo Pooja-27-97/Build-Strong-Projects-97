@@ -1,0 +1,35 @@
+/* .flowers {
+    height: 150px;
+    width: 200px;
+    background-color: pink;
+}
+
+ul {
+    background-color: orange;
+}
+
+li {
+    background-color: aqua;
+} */
+
+
+.todo {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    height: 20px;
+    width: 200px;
+    margin-left: 100px;
+}
+
+button {
+    height: 25px;
+}
