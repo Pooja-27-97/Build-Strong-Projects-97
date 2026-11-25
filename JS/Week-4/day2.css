@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+}
+
+.btn {
+    height: 120px;
+    width: 120px;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.orchid {
+    background-color: orchid;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.gameFlash {
+    background-color: white;
+}
+
+.userFlash {
+    background-color: chartreuse;
+}
