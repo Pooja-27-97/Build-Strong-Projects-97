@@ -54,6 +54,7 @@ Aim to build strong and worth projects.
 3. DOM basic concepts 
 4. DOM Events
 5. Event bubbling and delegation
+6. Saimon Says Game
 
 
 # React
