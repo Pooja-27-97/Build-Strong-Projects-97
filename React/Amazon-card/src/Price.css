@@ -2,6 +2,7 @@
     height: 50px;
     display: flex;
     background-color: pink;
+    border-radius: 0 0 18px 18px ;
 }
 
 .Price h3 {

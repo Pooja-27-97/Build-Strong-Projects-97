@@ -1,6 +1,10 @@
 .desc {
-    background-color: aquamarine;
-    height: 150px;
+    background-color: azure;
+    border: 5px solid aqua;
+    border-radius: 20px;
+    width: 200px;
+    height: 204px;
+    margin: 10px;
 }
 
 .desc h2 {

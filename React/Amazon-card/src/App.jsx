@@ -6,7 +6,6 @@ function App() {
     <div class="App">
       <h1>Blockbuster Deal on Branded Cloths</h1>
       <Card/>
-      <Card/>
     </div>
   )
 }
