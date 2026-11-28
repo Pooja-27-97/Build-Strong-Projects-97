@@ -56,6 +56,7 @@ Aim to build strong and worth projects.
 5. Event bubbling and delegation
 6. Saimon Says Game
 7. Promises
+8. API and Axios
 
 
 # React
